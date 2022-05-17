@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    min-width: 1200px;
+    height: fit-content;
+    min-height: 100%;
+    height: 100%;
+}
+.body{
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    min-height: 100%;
+}
+.titlu-footer{
+    height: fit-content;
+    min-height: 100%;
+}
+.titlu-footer span{
+    font-size: 50px;
+    font-weight: bold;
+}
+.continut-footer{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction: row;
+}
+.accesari-rapide{
+    padding-top: 30px;
+    margin-right: 1%;
+    margin-left: 1%;
+    display: flex;
+    min-height: 170px;
+    font-size: 17px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.accesari-rapide a{
+    margin: 10px 0px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.descriere{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 0px 20px;
+    margin-right: 5%;
+    min-height: 175px;
+    width: 100%;
+}
+.denumire{
+    font-weight: bold;
+}
+.descriere-numar{
+    padding-left: 10px;
+    margin-top: 1px;
+}
+
+.contact-continut{
+    position: relative;
+    background-color: rgb(255, 132, 95);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    min-width: 600px;
+    width: 600px;
+    min-height: 200px;
+    height: 200px;
+    margin-bottom:200px;
+}
+#nume{
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+}
+#clasa{
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    
+}
+#clasa #descriere-contact{
+    padding-right: 146px;
+}
+#profesor{
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+}
+#nume #descriere-contact{
+    padding-right: 36px;
+}
+.contact-continut #descriere-contact{
+    display: block;
+    position: relative;
+    font-size: 26px;
+    padding-right: 10px;
+}
+.design-contact{
+    position: absolute;
+    border-radius: 100px;
+    border: 22px solid #e2e2e2;
+    left: -40px;
+    top:-40px;
+    z-index: 20;
+    width: 100px;
+    height: 100px;
+}
